@@ -1,0 +1,61 @@
+body, .todos{
+  background-color: #dee2e6;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+}
+
+.btn-delete{
+  background-color:transparent;
+  border:none;
+  color: red; 
+  font-size:16px;
+  cursor: pointer;
+  padding: 12px 16px;
+  margin:0;
+  border-radius: 100%;
+}
+
+.btn-delete:hover{
+  background-color: #b3b3b3;
+}
+
+.todos:last-of-type{
+  margin-bottom: 2em;
+}
+
+.todos:hover{
+  background-color: rgb(200, 200, 200);
+}
+
+.window-body{
+  background-color: white;
+}
+
+#noteLabel{
+  color:transparent;
+}
+
+form:focus-within #noteLabel {
+  color:#340f99
+}
+
+
+input[type=text]{
+  border:none;
+  border-bottom: 1px #808080 solid;
+}
+
+input:focus{
+  outline:none;
+  border-bottom: 1px #340f99 solid;
+}
+
+input:focus::placeholder {
+    color: transparent;
+  }
+
+button:active{
+  outline:none; 
+}
